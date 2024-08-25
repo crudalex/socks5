@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "socks5"
+version = "0.1.0"
+description = "A SOCKS5 proxy server implemented using Python's asyncio library."
+authors = ["Alex Lam <Alex_TW_Lam@manulife.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+socks5 = "socks5:main"
